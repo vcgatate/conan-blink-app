@@ -17,13 +17,13 @@ int main (void)
         std::cout << "HIGH" << std::endl;
         #ifdef WIRINGPI
             digitalWrite(0, HIGH);
-            delay(5000);
+            delay(500);
         #endif
 
         std::cout << "LOW" << std::endl;
         #ifdef WIRINGPI
             digitalWrite(0, LOW);
-            delay(5000);
+            delay(500);
         #endif
     }
 
